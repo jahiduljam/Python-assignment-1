@@ -1,0 +1,23 @@
+# Task 1: Perform selected operation on two numbers
+
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+operation = input("Enter your choice (a/s/m/d): ")
+
+if operation == 'a':
+    print("Result:", num1 + num2)
+elif operation == 's':
+    print("Result:", num1 - num2)
+elif operation == 'm':
+    print("Result:", num1 * num2)
+elif operation == 'd':
+    print("Result:", num1 / num2)
+else:
+    print("Invalid operation.")
+# Task 2: Personalized greeting
+
+input1 = input("Enter the first name: ")
+input2 = input("Enter the second name: ")
+
+r = "Hello, " + input1 + " " + input2 + "! Welcome to the python program."
+print(r)
